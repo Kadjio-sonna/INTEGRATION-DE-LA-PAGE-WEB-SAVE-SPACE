@@ -1,0 +1,49 @@
+section#financial-goal {
+  margin-top: 8rem;
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .financial-goal-left {
+        width: 525px;
+      h1 {
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 55px;
+        color: #1e1e1e;
+        margin-bottom: 1rem;
+      }
+      p.parag {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 26px;
+        color: #444444;
+        margin-bottom: 1.8rem;
+      }
+
+      .financial-goal-content-item {
+        display: flex;
+        flex-direction: row;
+        // justify-content: center;
+        align-items: center;
+        gap: 32px;
+
+        // div > p {
+        //   font-weight: 600;
+        //   font-size: 22px;
+        //   line-height: 26px;
+        //   color: #1e1e1e;
+        // }
+
+        div > span {
+          font-weight: 600;
+          font-size: 20px;
+          line-height: 26px;
+          color: #1e1e1e;
+        }
+      }
+    }
+  }
+}

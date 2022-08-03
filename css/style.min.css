@@ -1,0 +1,600 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  list-style: none;
+  text-decoration: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "Manrope", sans-serif;
+  line-height: 1.5;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+a {
+  color: #1E1E1E;
+}
+
+img {
+  display: block;
+}
+
+.btn-primary {
+  background: #0247FE;
+  color: #FBFBFB;
+  padding: 16px 24px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0px 11.3115px 40px 0px;
+          box-shadow: rgba(0, 0, 0, 0.2) 0px 11.3115px 40px 0px;
+  border-radius: 8px;
+  font-size: 18px;
+  cursor: pointer;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+.btn-primary:hover {
+  -webkit-box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px 0px, rgba(0, 0, 0, 0.22) 0px 15px 12px 0px;
+          box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px 0px, rgba(0, 0, 0, 0.22) 0px 15px 12px 0px;
+}
+
+.btn-secondary {
+  background: #FBFBFB;
+  color: #0247FE;
+  padding: 16px 24px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0px 11.3115px 40px 0px;
+          box-shadow: rgba(0, 0, 0, 0.2) 0px 11.3115px 40px 0px;
+  border: 1px solid #0247FE;
+  border-radius: 8px;
+  font-size: 18px;
+  cursor: pointer;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+.btn-secondary:hover {
+  background: #0247fe;
+  border: none;
+  color: #FBFBFB;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px 0px, rgba(0, 0, 0, 0.22) 0px 15px 12px 0px;
+          box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px 0px, rgba(0, 0, 0, 0.22) 0px 15px 12px 0px;
+}
+
+nav .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+nav .container ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0px;
+  gap: 32px;
+}
+
+nav .container ul li {
+  font-weight: 600;
+  line-height: 18px;
+}
+
+nav .container ul li a.active {
+  color: #0247fe;
+}
+
+nav .container div.nav-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 10px;
+}
+
+header {
+  margin-top: 8rem;
+  margin-bottom: 4rem;
+}
+
+header .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0px;
+  gap: 16rem;
+}
+
+header .container .header-left {
+  margin-bottom: 8rem;
+}
+
+header .container .header-left h1 {
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 57px;
+  margin: 0 0 1rem 0;
+}
+
+header .container .header-left h1 span {
+  background: #023bd4;
+  color: #FBFBFB;
+  padding: 2px;
+}
+
+header .container .header-left p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  margin-bottom: 1rem;
+}
+
+header .container .header-left button.btn-primary {
+  margin-bottom: 2rem;
+}
+
+header .container .header-left .header-icons-rs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 8px;
+}
+
+header .container .header-left .header-icons-rs button.btn-secondary {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 8px;
+}
+
+header .container .header-right {
+  position: relative;
+}
+
+header .container .header-right .header-back-font1 {
+  width: 438px;
+  height: 424px;
+  background: #023bd4;
+  border-radius: 16px;
+}
+
+header .container .header-right .header-back-font2 {
+  position: absolute;
+  width: 478px;
+  height: 523px;
+  left: -100px;
+  top: -45px;
+  background-color: #2c66fe;
+  border-radius: 16px;
+}
+
+header .container .header-right .header-back-font2 img {
+  position: absolute;
+  display: block;
+  top: -75px;
+  left: 0;
+}
+
+section#step-financial {
+  margin-top: 8rem;
+}
+
+section#step-financial .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 8rem;
+}
+
+section#step-financial .container .step-financial-right {
+  margin-top: 1rem;
+}
+
+section#step-financial .container .step-financial-right h1 {
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 57px;
+}
+
+section#step-financial .container .step-financial-right p.paragraphe {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  margin: 1rem 0 2rem 0;
+}
+
+section#step-financial .container .step-financial-right .step-financial-content {
+  width: 631px;
+}
+
+section#step-financial .container .step-financial-right .step-financial-content .step-financial-content-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 40px;
+  margin-bottom: 2rem;
+}
+
+section#step-financial .container .step-financial-right .step-financial-content .step-financial-content-item img {
+  padding: 8px;
+  background: #dde6fc;
+  border-radius: 4px;
+}
+
+section#step-financial .container .step-financial-right .step-financial-content .step-financial-content-item p {
+  font-weight: 400;
+}
+
+section#step-financial .container .step-financial-right button.btn-primary {
+  margin-top: 1rem;
+}
+
+section#save-space-application {
+  margin-top: 8rem;
+}
+
+section#save-space-application .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 6rem;
+}
+
+section#save-space-application .container .save-space-left {
+  width: 600px;
+}
+
+section#save-space-application .container .save-space-left h1 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 55px;
+  color: #1e1e1e;
+  margin-bottom: 2rem;
+}
+
+section#save-space-application .container .save-space-left p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  color: #444444;
+  margin-bottom: 2rem;
+}
+
+section#save-space-application .container .save-space-left .btn-primary {
+  margin-bottom: 2rem;
+}
+
+section#save-space-application .container .save-space-right {
+  -webkit-box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+          box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 8px;
+  padding: 16px;
+}
+
+section#save-space-application .container .save-space-right .save-space-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+section#save-space-application .container .save-space-right .save-space-title h2 {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  color: #1e1e1e;
+}
+
+section#save-space-application .container .save-space-right .save-space-title h2.all {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  color: #0247fe;
+  cursor: pointer;
+}
+
+section#save-space-application .container .save-space-right .save-space-content .save-space-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 1rem;
+  margin-bottom: 1.4rem;
+}
+
+section#save-space-application .container .save-space-right .save-space-content .save-space-item img {
+  padding: 8px;
+  background: #dde6fc;
+  border-radius: 4px;
+}
+
+section#save-space-application .container .save-space-right .save-space-content .save-space-item span {
+  font-weight: 400;
+  font-size: 8px;
+  line-height: 11px;
+  color: #8f8f8f;
+  float: right;
+}
+
+section#save-space-application .container .save-space-right .save-space-content .save-space-item .save-space-item__ {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 10px;
+}
+
+section#save-space-application .container .save-space-right .save-space-content .save-space-item .save-space-item__ .save-space-item-desc h3 {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  color: #1e1e1e;
+}
+
+section#save-space-application .container .save-space-right .save-space-content .save-space-item .save-space-item__ .save-space-item-desc p {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #8f8f8f;
+  width: 218px;
+}
+
+section#save-space {
+  margin-top: 8rem;
+}
+
+section#save-space .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 153px;
+}
+
+section#save-space .container .save-left {
+  width: 600px;
+  height: 477px;
+  background: #012fa9;
+  border-radius: 16px;
+  position: relative;
+}
+
+section#save-space .container .save-left img {
+  position: absolute;
+  display: block;
+  top: -70px;
+  left: 0;
+}
+
+section#save-space .container .save-right {
+  width: 567px;
+}
+
+section#save-space .container .save-right h1 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 55px;
+  color: #1e1e1e;
+  margin-bottom: 1rem;
+}
+
+section#save-space .container .save-right p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  color: #444444;
+  margin-bottom: 1rem;
+}
+
+section#save-space .container .save-right .btn-primary {
+  margin-bottom: 1rem;
+}
+
+section#financial-goal {
+  margin-top: 8rem;
+}
+
+section#financial-goal .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+section#financial-goal .container .financial-goal-left {
+  width: 525px;
+}
+
+section#financial-goal .container .financial-goal-left h1 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 55px;
+  color: #1e1e1e;
+  margin-bottom: 1rem;
+}
+
+section#financial-goal .container .financial-goal-left p.parag {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  color: #444444;
+  margin-bottom: 1.8rem;
+}
+
+section#financial-goal .container .financial-goal-left .financial-goal-content-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 32px;
+}
+
+section#financial-goal .container .financial-goal-left .financial-goal-content-item div > span {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 26px;
+  color: #1e1e1e;
+}
+
+footer {
+  margin-top: 8rem;
+  background: #023bd4;
+  color: #fbfbfb;
+  height: 300px;
+  font-family: "Manrope", sans-serif;
+  font-style: normal;
+}
+
+footer .container {
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  -ms-grid-columns: (1fr)[5];
+      grid-template-columns: repeat(5, 1fr);
+}
+
+footer .container .infos p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #fbfbfb;
+  margin-top: 1rem;
+}
+
+footer .container .infos .info-rs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 16px;
+  margin-top: 1rem;
+}
+
+footer .container .company {
+  margin-top: 1.5rem;
+}
+
+footer ul {
+  line-height: 2rem;
+}
+
+footer ul li a {
+  color: #fbfbfb;
+}
+/*# sourceMappingURL=style.min.css.map */

@@ -1,0 +1,49 @@
+section#save-space {
+  margin-top: 8rem;
+
+  .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 153px;
+
+
+    .save-left {
+      width: 600px;
+      height: 477px;
+      background: #012fa9;
+      border-radius: 16px;
+      position: relative;
+
+      img{
+        position: absolute;
+          display: block;
+          top: -70px;
+          left: 0;
+      }
+    }
+
+    .save-right {
+        width: 567px;
+        h1 {
+          font-weight: 700;
+          font-size: 40px;
+          line-height: 55px;
+          color: #1e1e1e;
+          margin-bottom: 1rem;
+        }
+        p {
+          font-weight: 400;
+          font-size: 18px;
+          line-height: 26px;
+          color: #444444;
+          margin-bottom: 1rem;
+        }
+  
+        .btn-primary {
+          margin-bottom: 1rem;
+        }
+  }
+}
+}

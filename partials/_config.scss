@@ -1,0 +1,52 @@
+$container-lg: 90%;
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Manrope", sans-serif;
+    line-height: 1.5;
+    // color: $black-color;
+    // background: $white-color;
+    user-select: none;
+}
+
+.container {
+    width: $container-lg;
+    margin: 0 auto;
+}
+
+a{
+    color: #1E1E1E;
+}
+
+img {
+    display: block;
+    // width: 100%;
+}
+.btn-primary{
+    @include button-primary();
+    transition: all 1s ease;
+
+    &:hover {
+        box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px 0px, rgba(0, 0, 0, 0.22) 0px 15px 12px 0px;
+    }
+}
+.btn-secondary{
+    @include button-secondary();
+    transition: all 1s ease;
+
+    &:hover {
+        background: #0247fe;
+        border: none;
+        color: #FBFBFB;
+        box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px 0px, rgba(0, 0, 0, 0.22) 0px 15px 12px 0px;
+    }
+}

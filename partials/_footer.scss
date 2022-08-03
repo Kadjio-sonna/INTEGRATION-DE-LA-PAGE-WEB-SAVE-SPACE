@@ -1,0 +1,46 @@
+footer {
+  // display: grid;
+  // place-items: center;
+  margin-top: 8rem;
+  background: #023bd4;
+  color: #fbfbfb;
+  height: 300px;
+  font-family: "Manrope", sans-serif;
+  font-style: normal;
+
+  .container {
+    display: grid;
+    place-items: center;
+    grid-template-columns: repeat(5, 1fr);
+
+    .infos {
+      p {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: #fbfbfb;
+        margin-top: 1rem;
+      }
+      .info-rs {
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        gap: 16px;
+        margin-top: 1rem;
+      }
+    }
+
+    .company{
+        margin-top: 1.5rem;
+    }
+  }
+
+  ul {
+    line-height: 2rem;
+    li {
+      a {
+        color: #fbfbfb;
+      }
+    }
+  }
+}

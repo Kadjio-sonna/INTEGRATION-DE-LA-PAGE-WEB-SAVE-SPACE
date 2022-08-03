@@ -1,0 +1,111 @@
+section#save-space-application {
+  margin-top: 8rem;
+  // margin-bottom: 4rem;
+
+  .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    // align-items: center;
+    gap: 6rem;
+
+    .save-space-left {
+      width: 600px;
+      h1 {
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 55px;
+        color: #1e1e1e;
+        margin-bottom: 2rem;
+      }
+      p {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 26px;
+        color: #444444;
+        margin-bottom: 2rem;
+      }
+
+      .btn-primary {
+        margin-bottom: 2rem;
+      }
+    }
+
+    .save-space-right {
+      // box-shadow:  4px 4px 24px rgba(0, 0, 0, 0.1);
+      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+      border-radius: 8px;
+      padding: 16px;
+
+      .save-space-title {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 2rem;
+
+        h2 {
+          font-weight: 700;
+          font-size: 16px;
+          line-height: 22px;
+          color: #1e1e1e;
+        }
+
+        h2.all {
+          font-weight: 700;
+          font-size: 16px;
+          line-height: 22px;
+          color: #0247fe;
+          cursor: pointer;
+        }
+      }
+
+      .save-space-content {
+        .save-space-item {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          align-items: center;
+          gap: 1rem;
+          margin-bottom: 1.4rem;
+
+          img {
+            padding: 8px;
+            background: #dde6fc;
+            border-radius: 4px;
+          }
+
+          span {
+            font-weight: 400;
+            font-size: 8px;
+            line-height: 11px;
+            color: #8f8f8f;
+            float: right;
+          }
+
+          .save-space-item__ {
+            display: flex;
+            // justify-content: start;
+            align-items: center;
+            gap: 10px;
+
+            .save-space-item-desc {
+              h3 {
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 22px;
+                color: #1e1e1e;
+              }
+
+              p {
+                font-weight: 400;
+                font-size: 12px;
+                line-height: 16px;
+                color: #8f8f8f;
+                width: 218px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

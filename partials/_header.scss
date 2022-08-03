@@ -1,0 +1,96 @@
+header {
+  margin-top: 8rem;
+  margin-bottom: 4rem;
+
+  .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 16rem;
+
+    .header-left {
+       margin-bottom: 8rem;
+      h1 {
+        font-weight: 700;
+        font-size: 42px;
+        line-height: 57px;
+        margin: 0 0 1rem 0; //top right bottom left
+
+        span{
+            background: #023bd4;
+            color: #FBFBFB;
+            padding: 2px;
+        }
+      }
+
+      p {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 26px;
+        margin-bottom: 1rem;
+      }
+
+      button.btn-primary {
+        margin-bottom: 2rem;
+      }
+
+      .header-icons-rs {
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        gap: 8px;
+
+        button.btn-secondary {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          gap: 8px;
+        }
+      }
+    }
+
+    .header-right {
+      position: relative;
+
+      .header-back-font1 {
+        width: 438px;
+        height: 424px;
+        background: #023bd4;
+        border-radius: 16px;
+      }
+
+      .header-back-font2 {
+        position: absolute;
+        width: 478px;
+        height: 523px;
+        left: -100px;
+        top: -45px;
+        background-color: #2c66fe;
+        border-radius: 16px;
+
+        img {
+          position: absolute;
+          display: block;
+          top: -75px;
+          left: 0;
+        }
+        // &::before {
+        //   content: "";
+        //   position: absolute;
+        //   display: block;
+        //   width: 100%;
+        //   height: 100%;
+        //   top: 0;
+        //   left: 0;
+        //   background-image: url("/images/unsplash_LWkFHEGpleE.png");
+        //   background-position: bottom;
+        //   background-repeat: no-repeat;
+        //   background-position: center;
+        //   overflow: visible;
+        // }
+      }
+    }
+  }
+}

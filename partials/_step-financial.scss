@@ -1,0 +1,54 @@
+section#step-financial {
+  margin-top: 8rem;
+
+  .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    // align-items: center;
+    gap: 8rem;
+
+    .step-financial-right {
+        margin-top: 1rem;
+      h1 {
+        font-weight: 700;
+        font-size: 42px;
+        line-height: 57px;
+      }
+
+      p.paragraphe {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 26px;
+        margin: 1rem 0 2rem 0; //top right bottom left
+      }
+
+      .step-financial-content {
+        width: 631px;
+
+        .step-financial-content-item {
+          display: flex;
+          flex-direction: row;
+          justify-content: start;
+          align-items: center;
+          gap: 40px;
+          margin-bottom: 2rem;
+
+          img {
+            padding: 8px;
+            background: #dde6fc;
+            border-radius: 4px;
+          }
+
+          p{
+            font-weight: 400;
+          }
+        }
+      }
+
+      button.btn-primary{
+        margin-top: 1rem;
+      }
+    }
+  }
+}
